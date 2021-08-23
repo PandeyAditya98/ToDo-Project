@@ -1,0 +1,67 @@
+.first
+{
+    font-size: 50px;
+    color: blanchedalmond;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+.task
+{
+    color: black;
+}
+.second
+{
+    position: absolute;
+    top: 200px;
+    left: 930px;
+    font-size: 35px;
+    padding: 7.5px;
+    color: blanchedalmond;
+}
+.image1
+{
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+.list
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 280px;
+    margin-left: 380px;
+}
+.list1
+{
+    font-size: 20px;
+    color: blanchedalmond;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+    height: 300px;
+    width: 160px;
+}
+a
+{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.comp
+{
+    color: crimson;
+    text-decoration: line-through;
+    font-size: 25px;
+}
+.pend
+{
+    padding: 10px;
+    color: black;
+
+}
+.image2
+{
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,43 @@
+.container
+{
+    height: 700px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+img
+{
+   margin-left: 350px;
+   margin-top: 50px;
+}
+.container2
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    margin-left: 550px;
+    font-size: 25px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    align-items: center;
+    color: yellowgreen;
+    background-color: white;
+}
+strong
+{
+    color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+    background: chocolate;
+}
+input
+{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}

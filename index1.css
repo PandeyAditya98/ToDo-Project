@@ -1,0 +1,86 @@
+h1
+{
+    width: 50%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin:auto;
+    font-size: 50px;
+    margin-top: 80px; 
+} 
+h1 span 
+{ 
+     background:#fff; 
+     padding:0 10px; 
+}
+.back1
+{
+    font-size: 35px;
+    color: bisque;
+    position: absolute;
+    top: 150px;
+    left: 740px;
+}
+.back
+{
+    position: absolute;
+    top: 160px;
+    left: 700px;
+    color: red;
+    font-size: 25px;
+}
+.list11
+{
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+}
+.divert
+{
+    padding: 15px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.comp
+{
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: line-through;
+    color: red;
+    margin-top: 40px;
+
+}
+.pend
+{
+    font: bold;
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 5px;
+}
+.div11
+{
+    position: absolute;
+    top: 200px;
+    left: 530px;
+}
+.far
+{
+    font-size: 20px;
+    padding: 15px;
+}
+.plus
+{
+    position: absolute;
+    top: 345px;
+    left: 390px;
+    color: red;
+    font-size: 28px;
+}
+a
+{
+    text-decoration: none;
+    color: red;
+}

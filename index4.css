@@ -1,41 +1,54 @@
-.container
+.image
 {
-    height: 700px;
-    width: 100%;
+    position: absolute;
+    
 }
-img
-{
-   margin-left: 350px;
-   margin-top: 50px;
-}
-.container2
+.div1
 {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 200px;
-    position: absolute;
-    top: 250px;
-    margin-left: 550px;
-    font-size: 25px;
-    border: 2px solid gray;
-    border-radius: 20px;
-    align-items: center;
-    color: yellowgreen;
-    background-color: white;
-}
-strong
-{
-    color: white;
-    border: 2px solid gray;
-    border-radius: 5px;
-    width: 70px;
+    border: 2px solid red;
+    box-shadow: 5px 5px 2px grey;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
     text-align: center;
-    background: chocolate;
+    margin: auto;
+    background-color: white;
+    z-index: 1;
 }
-input
+.span1
 {
-    width: 250px;
-    height: 30px;
-    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin: auto;
+    position: absolute;
+    top: 300px;
+    left: 678px;
+}
+.span2
+{
+    border: 2px solid red;
+    box-shadow: 2px 2px 1px grey;
+    border-radius: 10px;
+    height: 50px;
+    width: 350px;
+    margin: auto;
+    position: absolute;
+    top: 360px;
+    left: 590px;
+}
+.span3
+{
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: auto;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    width: 100px;
+    position: absolute;
+    top: 430px;
+    left: 720px;
 }

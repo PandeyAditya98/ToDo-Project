@@ -1,67 +1,103 @@
-.first
-{
-    font-size: 50px;
-    color: blanchedalmond;
-    position: absolute;
-    top: 200px;
-    left: 400px;
-}
 .task
 {
+    font-size: 50px;
+    font-weight: bolder;
     color: black;
-}
-.second
-{
-    position: absolute;
-    top: 200px;
-    left: 930px;
-    font-size: 35px;
-    padding: 7.5px;
-    color: blanchedalmond;
-}
-.image1
-{
-    cursor: pointer;
-    height: 25px;
-    width: 25px;
+    padding: 15px;
 }
 .list
 {
+    font-size: 50px;
+    color: blanchedalmond;
+}
+.div1
+{
+    margin-top: 150px;
+    margin-left: 300px;
+}
+.div2
+{
+    position: absolute;
+    top: 160px;
+    left: 950px;
+}
+.list2
+{
+    font-size: 35px;
+    font-weight: lighter;
+    color: cornsilk;
+    
+}
+.icon
+{
+    height: 250px;
+    width: 250px;
+}
+.upper
+{
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    margin: 280px;
-    margin-left: 380px;
 }
-.list1
+.list11
 {
-    font-size: 20px;
-    color: blanchedalmond;
-    border: 2px solid gray;
+    border: 2px solid red;
     border-radius: 10px;
-    margin: 20px;
+    box-shadow: 10px 10px 5px grey;
+    width: 200px;
     height: 300px;
-    width: 160px;
+}
+.divert
+{
+    padding: 15px;
+    font-size: 25px;
+    color: salmon;
+}
+.comp
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: red;
+
 }
 a
 {
     text-decoration: none;
-    color: blanchedalmond;
-}
-.comp
-{
-    color: crimson;
-    text-decoration: line-through;
-    font-size: 25px;
+    color: salmon;
 }
 .pend
 {
-    padding: 10px;
-    color: black;
-
+    font: bold;
+    font-size: 25px;
+    padding: 15px;
 }
-.image2
+.down
 {
-    height: 20px;
-    width: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 280px;
+}
+.div11
+{
+    margin: 25px;
+    
+}
+.div12
+{
+    margin: 25px;
+}
+.div13
+{
+    margin: 25px;
+}
+.far
+{
+    font-size:23px;
+    padding: 5px;
+}
+.fas
+{
+    color: red;
+    font-size: 28px;
+    padding: 15px;
 }

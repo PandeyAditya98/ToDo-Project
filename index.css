@@ -101,3 +101,95 @@ a
     font-size: 28px;
     padding: 15px;
 }
+@media screen and (min-width:320px) and (max-width:580px) {
+    .div1
+        {
+            margin-top: 60px;
+            margin-left: 10px;
+        }  
+    .div2
+        {
+            position: absolute;
+            top: 68px;
+            left: 310px;   
+        }
+    .list2
+        {
+            display: none;
+        }
+    .down
+        {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+        }
+        hr{ display: none;}
+    .div11
+    {
+        margin: 0px;
+    }
+        .list11
+        {
+            border: 2px solid red;
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px grey;
+            width: 300px;
+            height: 50px;
+        }
+    .comp
+        {
+            display: none;
+        }
+    .pend
+        {
+            display: none;
+        }
+        .div12
+    {
+        margin: 0px;
+    }
+    .div13
+    {
+        margin: 0px;
+    }
+}
+@media screen and (min-width:580px) and (max-width:900px) {
+    .div1
+        {
+            margin-top: 60px;
+            margin-left: 10px;
+        }  
+    .div2
+        {
+            position: absolute;
+            top: 68px;
+            left: 380px;   
+        }
+
+    .down
+        {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+        }
+    .div11
+    {
+        margin: 0px;
+    }
+        .list11
+        {
+            border: 2px solid red;
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px grey;
+            width: 500px;
+            height: 250px;
+        }
+        .div12
+    {
+        margin: 0px;
+    }
+    .div13
+    {
+        margin: 0px;
+    }
+}

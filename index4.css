@@ -52,3 +52,120 @@
     top: 430px;
     left: 720px;
 }
+@media screen and (min-width:320px) and (max-width:500px) {
+    .image{
+        display: none;
+    }
+    body{
+        background-image: url("blursecond.png");
+        background-repeat: no-repeat;
+        margin: 0px;
+    }
+    .div1
+    {
+        width: 250px;
+        height: 200px;
+        margin-top: 200px;
+        margin-left: 35px;
+    }
+    .span1
+    {
+        position: absolute;
+        top: 220px;
+        left: 95px;
+        font-size:25px ;
+    }
+    .span2
+    {
+        position: absolute;
+        top: 270px;
+        left: 65px;
+        width: 200px;
+    }
+    .span3
+    {
+        position: absolute;
+        top: 340px;
+        left: 115px;
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:750px) {
+    .image{
+        display: none;
+    }
+    body{
+        background-image: url("blursecond.png");
+        background-repeat: no-repeat;
+        margin: 0px;
+    }
+    .div1
+    {
+        width: 350px;
+        height: 300px;
+        margin-top: 200px;
+        margin-left: 135px;
+    }
+    .span1
+    {
+        position: absolute;
+        top: 240px;
+        left: 220px;
+        font-size:35px ;
+    }
+    .span2
+    {
+        position: absolute;
+        top: 300px;
+        left: 165px;
+        width: 300px;
+    }
+    .span3
+    {
+        position: absolute;
+        top: 380px;
+        left: 245px;
+        font-size: 35px;
+        width: 150px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:750px) and (max-width:1020px) {
+    .image{
+        display: none;
+    }
+    body{
+        background-image: url("blursecond.png");
+        background-repeat: no-repeat;
+        margin: 0px;
+    }
+    .div1
+    {
+        width: 500px;
+        height: 250px;
+        margin-top: 200px;
+        margin-left: 135px;
+    }
+    .span1
+    {
+        position: absolute;
+        top: 220px;
+        left: 295px;
+        font-size:35px ;
+    }
+    .span2
+    {
+        position: absolute;
+        top: 280px;
+        left: 245px;
+        width: 300px;
+    }
+    .span3
+    {
+        position: absolute;
+        top: 360px;
+        left: 335px;
+        font-size: 35px;
+        width: 120px;
+    }
+}
